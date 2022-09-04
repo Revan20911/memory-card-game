@@ -1,0 +1,44 @@
+:root{
+
+    --prim-dark: #1b468c;
+    --prim-light: #c2cef0;
+
+
+}
+
+.header-wrapper{
+
+    display: flex;
+    flex-direction: row;
+
+    height: 12vmax;
+
+    justify-content: space-evenly;
+    color: var(--prim-light);
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+
+    padding: 10px;
+
+}
+
+.pokedex-display-left{
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pokedex-display-right{
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}

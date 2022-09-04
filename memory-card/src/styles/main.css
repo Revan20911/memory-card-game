@@ -1,0 +1,51 @@
+:root{
+
+    --prim-dark: #1b468c;
+    --prim-light: #c2cef0;
+ 
+}
+
+
+.main{
+
+    height: 100vmax;
+    width: 100vmax;
+    background-color: var(--prim-dark);
+
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 12px;
+    background-color: var(--prim-dark);
+
+}
+
+.card-wrapper{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 300px;
+    background-color: var(--prim-light);
+    border-radius: 1.5em;
+    margin: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.card-wrapper:hover{
+
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+img{
+    height: fit-content;
+    width: fit-content;
+    max-width: 200px;
+    max-height: 200px;
+}
