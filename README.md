@@ -1,6 +1,5 @@
-# memory-card-game
-Memory card game
-
+# Pokemon Memory Card Game
+Live preview: https://revan20911.github.io/memory-card-game/
 
 **Features** 
 
